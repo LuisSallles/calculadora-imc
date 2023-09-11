@@ -1,6 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    overflow: hidden;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 170px;
+}
+
+.main-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.267);
+    font-family: Poppins, Helvetica, sans-serif;
+    border: 1px solid black;
+    height: 600px;
+    width: 450px;
+    padding: 30px;
+}
+
+.calculator-title {
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.calculator-form {
+    font-size: 20px;
+}
+
