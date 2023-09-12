@@ -8,7 +8,6 @@
     <title>IMC - Calculator</title>
 </head>
 <body>
-
     <!-- MAIN CONTENT -->
     <main class="main-content">
         <!-- CALCULATOR -->
@@ -16,13 +15,12 @@
             <header>
                 <h1 class="calculator-title">IMC - Calculator</h1>
             </header>
-
             <!-- FORM-CALCULATOR -->
             <div class="calculator-form">
                 <p class="calculator-data"><strong>Name:</strong> <input type="text" name="txtname" id="txtname" class="calculator-input"></p>
                 <p class="calculator-data"><strong>Height:</strong> <input type="number" name="txtheight" id="txtheight" class="calculator-input"></p>
                 <p class="calculator-data"><strong>Weight:</strong> <input type="number" name="txtweight" id="txtweight" class="calculator-input"></p>
-                <input type="button" value="Calculate" class="calculator-button">
+                <input type="button" value="Calculate" class="calculator-button" onclick="calculate()">
                 <!-- RESULT-CALCULATOR -->
                 <div id="calculator-result">
                     <p>Here will appear the result...</p>
@@ -30,7 +28,6 @@
             </div>
         </section>
     </main>
-
     <script src="javascript.js"></script>
 </body>
 </html>

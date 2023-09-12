@@ -5,7 +5,6 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .main-content {
@@ -13,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to right, rgb(230, 180, 42), #000000);
-    padding: 30px;
+    padding: 167px;
 }
 
 .main-calculator {
@@ -21,7 +20,7 @@
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.219);
     font-family: Poppins, Helvetica, sans-serif;
-    border: 1px solid black;
+    border: none solid black;
     height: 589px;
     width: 415px;
     padding: 30px;
@@ -66,6 +65,7 @@
     border-radius: 18px;
     width: 329px;
     height: 45px;
+    margin-bottom: 15px;
 }
 
 #calculator-result {
