@@ -1,12 +1,8 @@
-function parseImc(i) {
-    let height = Number(document.getElementById('txtheight').value)
-    let weight = Number(document.getElementById('txtweight').value)
-    let imc = weight / (height * height)
-    return Math.floor(imc) 
-}
-
+// Function to calculate the IMC
 function calculate() {
-    let name = String(document.getElementById('txtname').value)
-    parseImc(result)
-    let result = document.getElementById('calculator-result').innerHTML = `${result}`
+    const name = String(document.getElementById('txtname').value)
+    const height = Number(document.getElementById('txtheight').value)
+    const weight = Number(document.getElementById('txtweight').value)
+    const imc = weight / (height * height)
+    let result = document.getElementById('calculator-result')
 }
