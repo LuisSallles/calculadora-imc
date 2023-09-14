@@ -58,7 +58,7 @@
 
 .calculator-button {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
     color: orange;
     background-color: black;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.219);
@@ -73,6 +73,7 @@
     flex-direction: row;
     align-items: center;
     color: orange;
+    font-weight: 400;
     background-color: black;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.219);
     border-radius: 18px;
