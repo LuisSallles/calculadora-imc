@@ -1,6 +1,6 @@
 function isData(n, h, w) { // Funtion to check if it has dates on input
     if(n.length === 0 || h.value === 0 || w.value === 0) {
-        return false
+        return false 
     } else {
         return true
     }
