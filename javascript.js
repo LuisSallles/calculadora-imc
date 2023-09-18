@@ -1,5 +1,5 @@
 function isData(n, h, w) { // Funtion to check if it has dates on input
-    if(n.length === 0 || h.value === 0 || w.value === 0) {
+    if(n.length === 0 || h === 0 || w === 0) {
         return false 
     } else {
         return true
@@ -33,3 +33,4 @@ function calculate() { // Function to calculate the IMC
 function clearThis(target) { // Function to clean the inputs
     target.value = ''
 }
+
